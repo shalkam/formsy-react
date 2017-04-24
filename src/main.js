@@ -238,7 +238,7 @@ Formsy.Form = React.createClass({
       _isRequired: validation.isRequired,
       _validationError: validation.error,
       _externalError: null
-    }, this.validateForm);
+    });
 
   },
 
